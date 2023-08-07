@@ -1,4 +1,4 @@
-import React from "react";
+
 
 const Partner = () => {
   return (
@@ -6,13 +6,13 @@ const Partner = () => {
       <h2 className="mb-10 text-4xl font-bold">Our Partner Companies</h2>
       <p>
         At Lego Land, we proudly collaborate with renowned partner companies to
-        bring <br />
+        bring
         you an extraordinary toy shopping experience. From Disney's magical
-        characters to <br />
+        characters to
         Marvel superheroes and beloved franchises like Star Wars, our
-        partnerships ensure <br /> an extensive collection of toys that ignite
+        partnerships ensure an extensive collection of toys that ignite
         imagination and nostalgia, captivating kids
-        <br /> and adults alike.
+        and adults alike.
       </p>
       <div className="lg:grid grid-cols-7 gap-5 mt-10">
         <img

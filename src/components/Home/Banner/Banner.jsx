@@ -1,4 +1,4 @@
-import React from "react";
+
 
 const Banner = () => {
   return (
@@ -10,7 +10,7 @@ const Banner = () => {
         backgroundSize: "100% 100%",
       }}
     >
-      <div className="flex flex-col justify-between p-8 bg-gradient-to-r from-slate-800 min-h-screen text-white">
+      <div className="space-y-6 flex flex-col justify-between p-52 bg-gradient-to-r from-slate-800 min-h-[600px] text-white">
         <h2 className="lg:text-6xl text-xl font-bold">
           Unleash Your Imagination, <br /> Brick by Brick
         </h2>
