@@ -15,7 +15,7 @@ const TopSeller = () => {
     return (
         <div className="p-12 text-center">
             <h1 className="text-4xl font-bold mb-10">Top sellers</h1>
-            <div className="grid grid-cols-4 gap-2">
+            <div className="lg:grid grid-cols-4 gap-2">
 
             {sellers.map(seller => <SellerCard key={seller._id} seller={seller} />)}
             </div>

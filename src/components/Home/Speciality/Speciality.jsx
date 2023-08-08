@@ -42,8 +42,8 @@ const Speciality = () => {
   </div>
 </div>
 </div>
-<div>
-    <img src="../../../../public/assets/images/lego_question.jpg" alt="lego_question" />
+<div className="hidden lg:block">
+    <img src="assets/images/lego_question.jpg" alt="lego_question" />
 </div>
 </div>
         </div>
