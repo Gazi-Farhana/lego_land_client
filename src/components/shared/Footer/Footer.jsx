@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className="bg-gradient-to-l from-yellow-600 to-green-500">
       <footer className="footer p-10  text-base-content">
-        <div>
+        <div className="ml-36">
           <img className="w-28" src="assets/images/logo.jpeg" alt="" />
           <p>
             <span>Lego Land</span>

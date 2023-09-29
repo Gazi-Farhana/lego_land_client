@@ -19,21 +19,15 @@ const ToyDetail = () => {
   useSetTitle(`${name}`);
 
   return (
-    <div className="p-8 bg-base-200">
-      <div className="card bg-base-100 shadow-xl p-4">
-        <div className="grid grid-cols-details">
-          <div>
-            <div className="avatar">
-              <div className=" rounded">
-                <img src={image} />
-              </div>
-            </div>
-          </div>
+    <div className="p-8 bg-base-200 ">
+      <div className="card bg-base-100 shadow-xl p-4 max-w-2xl m-auto">
+        <div className="m-auto">
+          <img src={image} />
+        </div>
           <div className="text-center">
             <h1 className="text-2xl font-bold">{name}</h1>
             <p>{description}</p>
           </div>
-        </div>
         <div className="grid grid-cols-2 justify-between mt-8 bg-base-300 p-4 rounded-xl">
           <div>
             <p>

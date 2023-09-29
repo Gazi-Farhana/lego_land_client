@@ -7,11 +7,10 @@ const Navbar = () => {
   const { user, logOut } = useContext(AuthContext);
   return (
     <div className="navbar bg-gradient-to-r from-yellow-600 to-green-600">
-      <div className="navbar-start">
+      <div className="navbar-start ml-10">
         <div className="dropdown"></div>
         <div className="flex">
-          <img className="w-12" src="assets/images/logo.jpeg" alt="" />
-          <a className="normal-case ml-2 text-xl">Lego Land</a>
+          <img className="w-28" src="assets/images/logo.jpeg" alt="logo" />
         </div>
       </div>
       <div className="navbar-center hidden lg:flex">

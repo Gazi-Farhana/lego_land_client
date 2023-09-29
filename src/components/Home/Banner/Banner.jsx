@@ -4,13 +4,13 @@ const Banner = () => {
   return (
     <div
       style={{
-        backgroundImage: "url('assets/images/bannerfull.jpg')",
+        backgroundImage: "url('assets/images/banner-lego.jpg')",
         backgroundPosition: "fixed",
         backgroundRepeat: "no-repeat",
         backgroundSize: "100% 100%",
       }}
     >
-      <div className="space-y-6 flex flex-col justify-between p-52 bg-gradient-to-r from-slate-800 min-h-[600px] text-white">
+      <div className="space-y-6 flex flex-col justify-between p-24 bg-gradient-to-r from-slate-800 text-white">
         <h2 className="lg:text-6xl text-xl font-bold">
           Unleash Your Imagination, <br /> Brick by Brick
         </h2>

@@ -53,9 +53,9 @@ const AddAToy = () => {
   return (
     <div className="mx-auto text-center p-8">
       <DynamicTitle head={"Add a Toy"}></DynamicTitle>
-      <form onSubmit={handleAddToy} className="card shadow-lg">
-        <div className="grid grid-cols-3 p-8">
-          <div className="form-control w-full max-w-xs">
+      <form onSubmit={handleAddToy} className="card shadow-lg bg-base-200">
+        <div className="grid grid-cols-2 gap-5 p-8 ">
+          <div className="form-control">
             <label className="label">
               <span className="label-text">PhotoUrl</span>
             </label>
@@ -64,10 +64,10 @@ const AddAToy = () => {
               required
               name="photo"
               placeholder="photo url"
-              className="input input-bordered w-full max-w-xs"
+              className="input input-bordered"
             />
           </div>
-          <div className="form-control w-full max-w-xs">
+          <div className="form-control">
             <label className="label">
               <span className="label-text">Name</span>
             </label>
@@ -75,10 +75,10 @@ const AddAToy = () => {
               type="text"
               name="name"
               placeholder="name of the toy"
-              className="input input-bordered w-full max-w-xs"
+              className="input input-bordered"
             />
           </div>
-          <div className="form-control w-full max-w-xs">
+          <div className="form-control">
             <label className="label">
               <span className="label-text">Description</span>
             </label>
@@ -87,10 +87,10 @@ const AddAToy = () => {
               required
               name="description"
               placeholder="write a description on the toy"
-              className="input input-bordered w-full max-w-xs"
+              className="input input-bordered"
             />
           </div>
-          <div className="form-control w-full max-w-xs">
+          <div className="form-control">
             <label className="label">
               <span className="label-text">Seller's Name</span>
             </label>
@@ -100,10 +100,10 @@ const AddAToy = () => {
               defaultValue={user.displayName}
               name="seller_name"
               placeholder="write your name"
-              className="input input-bordered w-full max-w-xs"
+              className="input input-bordered"
             />
           </div>
-          <div className="form-control w-full max-w-xs">
+          <div className="form-control">
             <label className="label">
               <span className="label-text">Seller's Email</span>
             </label>
@@ -114,10 +114,10 @@ const AddAToy = () => {
               name="email"
               defaultValue={user.email}
               placeholder="Your email"
-              className="input input-bordered w-full max-w-xs"
+              className="input input-bordered"
             />
           </div>
-          <div className="form-control w-full max-w-xs">
+          <div className="form-control">
             <label className="label">
               <span className="label-text">Price</span>
             </label>
@@ -126,10 +126,10 @@ const AddAToy = () => {
               required
               name="price"
               placeholder="how much?"
-              className="input input-bordered w-full max-w-xs"
+              className="input input-bordered"
             />
           </div>
-          <div className="form-control w-full max-w-xs">
+          <div className="form-control">
             <label className="label">
               <span className="label-text">Quantity</span>
             </label>
@@ -138,10 +138,10 @@ const AddAToy = () => {
               required
               name="quantity"
               placeholder="how many"
-              className="input input-bordered w-full max-w-xs"
+              className="input input-bordered"
             />
           </div>
-          <div className="form-control w-full max-w-xs">
+          <div className="form-control">
             <label className="label">
               <span className="label-text">Rating</span>
             </label>
@@ -150,10 +150,10 @@ const AddAToy = () => {
               required
               name="rating"
               placeholder="rate the product in (0-5)"
-              className="input input-bordered w-full max-w-xs"
+              className="input input-bordered"
             />
           </div>
-          <div className="form-control w-full max-w-xs">
+          <div className="form-control">
             <label className="label">
               <span className="label-text">Subcategory</span>
             </label>
@@ -162,14 +162,14 @@ const AddAToy = () => {
               required
               name="category"
               placeholder="in which category this toy falls"
-              className="input input-bordered w-full max-w-xs"
+              className="input input-bordered"
             />
           </div>
         </div>
         <div>
           <input
             type="submit"
-            className="btn btn-primary mb-8"
+            className="btn btn-accent mb-8"
             value="Submit"
           />
         </div>
